@@ -1,0 +1,11 @@
+nodeid,7EFF392050EF
+binary,HEX
+channel,heartbeat
+batch,4
+catalog,
+schema,
+table,sym_node_host
+keys,node_id,host_name
+columns,node_id,host_name,instance_id,ip_address,os_user,os_name,os_arch,os_version,available_processors,free_memory_bytes,total_memory_bytes,max_memory_bytes,java_version,java_vendor,jdbc_version,symmetric_version,timezone_offset,heartbeat_time,last_restart_time,create_time
+update,"7EFF392050EF","localhost",,"100.111.85.93","root","Linux","aarch64","4.14.150-g05fe60fb845b-ab6126650","8","5772974","11939438","201326592","0","The Android Project","1.0.30","development","-04:00","2020-04-13 15:33:18.000","2020-04-13 15:33:18.382","2020-04-13 19:33:15.240","7EFF392050EF","localhost"
+commit,4

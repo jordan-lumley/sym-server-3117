@@ -43,19 +43,19 @@ delete from sym_node;
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('android_log', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('android_log', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('employee', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('employee', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('employee_location', 2, 100000, 1, 'sale_transactional data from register and back office');
+values('employee_location', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('employee_call_log', 2, 100000, 1, 'sale_transactional data from register and back office');
+values('employee_call_log', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
@@ -63,37 +63,35 @@ values('inventory', 1, 100000, 1, 'sale_transactional data from register and bac
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('inventory_variance', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('inventory_variance', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('item', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('item', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('merchant', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('merchant', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('merchant_item', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('merchant_item', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('pick_ticket', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('pick_ticket', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('purchase_order', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('purchase_order', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 insert into sym_channel 
 (channel_id, processing_order, max_batch_size, enabled, description)
-values('vendor', 1, 100000, 1, 'sale_transactional data from register and back office');
+values('vendor', 1, 500000, 1, 'sale_transactional data from register and back office');
 
 ------------------------------------------------------------------------------
 -- Node Groups
 ------------------------------------------------------------------------------
-
-insert into sym_node_group (node_group_id) values ('android-corp');
 
 insert into sym_node_group (node_group_id) values ('android-client');
 
@@ -187,6 +185,10 @@ insert into sym_router
 (router_id,source_node_group_id,target_node_group_id, router_type,create_time,last_update_time)
 values('client_2_corp', 'client','corp', 'default',current_timestamp, current_timestamp);
 
+insert into sym_router 
+(router_id,source_node_group_id,target_node_group_id,router_type,router_expression,create_time,last_update_time)
+values('corp_2_one_android_client', 'corp', 'android-client', 'column','device=:EXTERNAL_ID',current_timestamp, current_timestamp);
+
 ------------------------------------------------------------------------------
 -- Trigger Routers
 ------------------------------------------------------------------------------
@@ -216,7 +218,7 @@ values('employee','client_2_corp', 200, current_timestamp, current_timestamp);
 
 insert into sym_trigger_router 
 (trigger_id,router_id,initial_load_order,initial_load_select,last_update_time,create_time)
-values('employee_call_log','corp_2_android_client', 100, '1=0', current_timestamp, current_timestamp);
+values('employee_call_log','corp_2_one_android_client', 100, 'device=''$(externalId)''', current_timestamp, current_timestamp);
 
 insert into sym_trigger_router
 (trigger_id,router_id,initial_load_order,last_update_time,create_time)
@@ -307,6 +309,7 @@ values('purchase_order','client_2_corp', 200, current_timestamp, current_timesta
 insert into sym_trigger_router 
 (trigger_id,router_id,initial_load_order,last_update_time,create_time)
 values('vendor','corp_2_client', 100, current_timestamp, current_timestamp);
+
 
 insert into sym_trigger_router
 (trigger_id,router_id,initial_load_order,last_update_time,create_time)

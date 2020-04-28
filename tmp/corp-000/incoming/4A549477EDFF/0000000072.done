@@ -1,0 +1,12 @@
+nodeid,4A549477EDFF
+binary,HEX
+channel,android_log
+batch,72
+catalog,
+schema,
+table,android_log
+keys,log_date,log,device,level,message
+columns,log_date,log,device,level,message
+insert,"2020-04-27 16:21:52.000","d39fca6a-e085-46a9-8866-f9a3ed5a80be","4A549477EDFF","INFO","Got initial location: -79.9237714 40.9075204"
+insert,"2020-04-27 16:21:52.000","0f259355-2afc-457e-86a5-7d21ef8ae9ac","4A549477EDFF","INFO","sendLocationPostRequest success at getLastLocation"
+commit,72

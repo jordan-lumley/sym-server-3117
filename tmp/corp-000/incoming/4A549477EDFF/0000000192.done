@@ -1,0 +1,18 @@
+nodeid,4A549477EDFF
+binary,HEX
+channel,android_log
+batch,192
+catalog,
+schema,
+table,android_log
+keys,log_date,log,device,level,message
+columns,log_date,log,device,level,message
+insert,"2020-04-27 16:50:57.000","694b0f89-d20d-4929-80b6-15242470c639","4A549477EDFF","DEBUG","NEW LOCATION: Location[fused 40.823416,-80.011303 hAcc=3 et=+30m45s34ms alt=357.1728515625 vel=20.57414 bear=185.01962 vAcc=4 sAcc=1 bAcc=2 {Bundle[mParcelledData.dataSize=52]}]"
+insert,"2020-04-27 16:50:57.000","825571c6-5cd1-435e-925f-45493f274226","4A549477EDFF","INFO","sendLocationPostRequest success at onNewLocation"
+insert,"2020-04-27 16:51:02.000","7990ce74-985c-4122-83ed-ec520bc1a0af","4A549477EDFF","DEBUG","NEW LOCATION: Location[fused 40.822451,-80.011338 hAcc=3 et=+30m50s54ms alt=358.8726806640625 vel=21.965487 bear=177.0328 vAcc=3 sAcc=1 bAcc=2 {Bundle[mParcelledData.dataSize=52]}]"
+insert,"2020-04-27 16:51:03.000","b2029807-44a3-40ff-920a-f45086bc9064","4A549477EDFF","INFO","sendLocationPostRequest success at onNewLocation"
+insert,"2020-04-27 16:51:08.000","828051a5-31d1-433a-b96c-089c6efd1b48","4A549477EDFF","DEBUG","NEW LOCATION: Location[fused 40.821277,-80.011178 hAcc=3 et=+30m56s58ms alt=356.00787353515625 vel=21.599186 bear=169.0107 vAcc=3 sAcc=1 bAcc=2 {Bundle[mParcelledData.dataSize=52]}]"
+insert,"2020-04-27 16:51:08.000","4e43d1b8-8100-4b79-8137-d62bf9588991","4A549477EDFF","INFO","sendLocationPostRequest success at onNewLocation"
+insert,"2020-04-27 16:51:13.000","8577b3d6-bc03-44de-94d3-47aff04756dc","4A549477EDFF","DEBUG","NEW LOCATION: Location[fused 40.820337,-80.010881 hAcc=3 et=+31m1s60ms alt=354.2069091796875 vel=21.817873 bear=165.9991 vAcc=3 sAcc=1 bAcc=1 {Bundle[mParcelledData.dataSize=52]}]"
+insert,"2020-04-27 16:51:13.000","abd78e83-369e-4f27-b9ef-e1a5dd01a54d","4A549477EDFF","INFO","sendLocationPostRequest success at onNewLocation"
+commit,192

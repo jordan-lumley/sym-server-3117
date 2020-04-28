@@ -1,0 +1,13 @@
+nodeid,4A549477EDFF
+binary,HEX
+channel,employee_location
+batch,201
+catalog,
+schema,
+table,employee_location
+keys,employee_location
+columns,employee_location,log_date,document,device
+insert,"17928380-ad26-4735-b352-a38ae068d85f","2020-04-27 16:52:03.000","{\"longitude\":-80.0140123,\"latitude\":40.8100395,\"altitude\":351.54254150390625,\"accuracy\":3.216,\"bearing\":207.99422,\"speed\":21.143852,\"time\":1588020724000}","4A549477EDFF"
+insert,"a8ad07fb-eecf-4d41-a7be-038f48c79b5f","2020-04-27 16:52:09.000","{\"longitude\":-80.014704,\"latitude\":40.8090899,\"altitude\":354.1090087890625,\"accuracy\":3.352,\"bearing\":207.01204,\"speed\":20.137142,\"time\":1588020730000}","4A549477EDFF"
+insert,"2f9761a1-c7dc-46b3-855e-b292591c30ed","2020-04-27 16:52:15.000","{\"longitude\":-80.0153535,\"latitude\":40.8080855,\"altitude\":352.083740234375,\"accuracy\":3.216,\"bearing\":202.00133,\"speed\":21.689575,\"time\":1588020736000}","4A549477EDFF"
+commit,201

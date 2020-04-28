@@ -1,0 +1,11 @@
+nodeid,4A549477EDFF
+binary,HEX
+channel,employee_location
+batch,271
+catalog,
+schema,
+table,employee_location
+keys,employee_location
+columns,employee_location,log_date,document,device
+insert,"c59b2313-0cdd-4871-af2a-285835a8bb67","2020-04-27 17:02:28.000","{\"longitude\":-80.1117609,\"latitude\":40.7634777,\"altitude\":296.08758544921875,\"accuracy\":123.847,\"bearing\":224.99284,\"speed\":19.51118,\"time\":1588021348224}","4A549477EDFF"
+commit,271

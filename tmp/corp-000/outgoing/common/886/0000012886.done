@@ -1,0 +1,11 @@
+nodeid,000
+binary,BASE64
+channel,heartbeat
+batch,12886
+catalog,
+schema,
+table,sym_node_host
+keys,node_id,host_name
+columns,node_id,host_name,instance_id,ip_address,os_user,os_name,os_arch,os_version,available_processors,free_memory_bytes,total_memory_bytes,max_memory_bytes,java_version,java_vendor,jdbc_version,symmetric_version,timezone_offset,heartbeat_time,last_restart_time,create_time
+update,"000","atlas-crm-dev-vm-db","atlas-crm-dev-vm-db-bf9ed6a9-e1c4-4cf3-adee-f80c48c8f64b","10.150.0.50","root","Linux","amd64","4.9.0-12-amd64","1","139418936","259653632","1037959168","11.0.6","Debian","42.2.8","3.11.7","+00:00","2020-04-23 01:28:40.000000","2020-04-13 19:27:56.436000","2020-03-30 19:00:43.503481","000","atlas-crm-dev-vm-db"
+commit,12886

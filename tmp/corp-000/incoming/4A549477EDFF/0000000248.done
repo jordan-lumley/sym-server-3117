@@ -1,0 +1,12 @@
+nodeid,4A549477EDFF
+binary,HEX
+channel,android_log
+batch,248
+catalog,
+schema,
+table,android_log
+keys,log_date,log,device,level,message
+columns,log_date,log,device,level,message
+insert,"2020-04-27 16:59:18.000","f954cd8b-d141-49dd-bb56-4eda1fbb5303","4A549477EDFF","DEBUG","NEW LOCATION: Location[fused 40.772356,-80.075633 hAcc=6 et=+39m6s1ms alt=274.60528564453125 vel=13.439184 bear=224.07147 vAcc=12 sAcc=1 bAcc=2 {Bundle[mParcelledData.dataSize=52]}]"
+insert,"2020-04-27 16:59:18.000","fdad3fe2-4784-4d58-aedb-9f087a9d56a6","4A549477EDFF","INFO","sendLocationPostRequest success at onNewLocation"
+commit,248

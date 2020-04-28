@@ -1,0 +1,24 @@
+nodeid,4A549477EDFF
+binary,HEX
+channel,employee_call_log
+batch,406
+catalog,
+schema,
+table,employee_call_log
+keys,employee_call_log
+columns,employee_call_log,call_date,document,device
+insert,"515a06ab-e0d1-43bb-8452-14dd44ea9e4b","2020-01-30 13:54:20.385","{\"callType\":\"Outgoing\",\"phoneNumber\":\"7245043675\",\"duration\":\"5\",\"callDate\":\"2020-01-30T13:54:20.385\"}","4A549477EDFF"
+insert,"b96f8b4d-ba07-4940-abf4-0dd3c3d2d78e","2020-02-10 11:40:08.167","{\"callType\":\"Rejected\",\"phoneNumber\":\"12063471480\",\"duration\":\"0\",\"callDate\":\"2020-02-10T11:40:08.167\"}","4A549477EDFF"
+insert,"c25ed497-e391-4c72-a498-287731e3ba51","2020-02-11 12:49:43.241","{\"callType\":\"Missed\",\"phoneNumber\":\"12063471480\",\"duration\":\"0\",\"callDate\":\"2020-02-11T12:49:43.241\"}","4A549477EDFF"
+insert,"d5a12d88-08f5-4677-9d26-f67730928175","2020-02-12 12:28:19.891","{\"callType\":\"Missed\",\"phoneNumber\":\"12063471480\",\"duration\":\"0\",\"callDate\":\"2020-02-12T12:28:19.891\"}","4A549477EDFF"
+insert,"33b4335f-5631-42ae-bd08-82313d723fde","2020-02-19 14:02:17.080","{\"callType\":\"Missed\",\"phoneNumber\":\"12063471480\",\"duration\":\"0\",\"callDate\":\"2020-02-19T14:02:17.080\"}","4A549477EDFF"
+insert,"e15f8ef7-70a6-4fb7-abda-5084622a609c","2020-03-09 09:44:19.268","{\"callType\":\"Outgoing\",\"phoneNumber\":\"7243558886\",\"duration\":\"0\",\"callDate\":\"2020-03-09T09:44:19.268\"}","4A549477EDFF"
+insert,"72e0f88c-4860-44ee-8704-a8a3b07f180c","2020-03-31 09:23:09.079","{\"callType\":\"Outgoing\",\"phoneNumber\":\"7245043675\",\"duration\":\"0\",\"callDate\":\"2020-03-31T09:23:09.079\"}","4A549477EDFF"
+insert,"8c0412ae-8839-49a1-8c84-b53eac8d3689","2020-03-31 09:33:41.478","{\"callType\":\"Outgoing\",\"phoneNumber\":\"7245043675\",\"duration\":\"0\",\"callDate\":\"2020-03-31T09:33:41.478\"}","4A549477EDFF"
+insert,"61be5ba6-b37a-4c55-87aa-eac4ba0ed3ea","2020-03-31 09:41:33.875","{\"callType\":\"Outgoing\",\"phoneNumber\":\"7245043675\",\"duration\":\"1\",\"callDate\":\"2020-03-31T09:41:33.875\"}","4A549477EDFF"
+insert,"9735c699-b659-43ca-b51f-361fa0c17c2d","2020-04-01 11:17:27.909","{\"callType\":\"Outgoing\",\"phoneNumber\":\"7245043675\",\"duration\":\"0\",\"callDate\":\"2020-04-01T11:17:27.909\"}","4A549477EDFF"
+insert,"4a7cd43d-dfc5-4767-acc6-657d45899713","2020-04-02 16:41:26.751","{\"callType\":\"Missed\",\"phoneNumber\":\"17245043675\",\"duration\":\"0\",\"callDate\":\"2020-04-02T16:41:26.751\"}","4A549477EDFF"
+insert,"d03b3c4c-af5c-4574-a077-89d0f54dc0ca","2020-04-13 13:13:36.212","{\"callType\":\"Rejected\",\"phoneNumber\":\"16263803778\",\"duration\":\"0\",\"callDate\":\"2020-04-13T13:13:36.212\"}","4A549477EDFF"
+insert,"5f852b70-0d37-4ee2-b541-592b1024bdb9","2020-04-22 12:06:56.004","{\"callType\":\"Outgoing\",\"phoneNumber\":\"3049141242\",\"duration\":\"3\",\"callDate\":\"2020-04-22T12:06:56.004\"}","4A549477EDFF"
+insert,"6babbfaf-149a-4ba7-9482-65dec06918c1","2020-04-22 12:08:02.426","{\"callType\":\"Incoming\",\"phoneNumber\":\"13049141242\",\"duration\":\"25\",\"callDate\":\"2020-04-22T12:08:02.426\"}","4A549477EDFF"
+commit,406

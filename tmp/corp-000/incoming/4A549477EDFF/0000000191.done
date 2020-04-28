@@ -1,0 +1,14 @@
+nodeid,4A549477EDFF
+binary,HEX
+channel,employee_location
+batch,191
+catalog,
+schema,
+table,employee_location
+keys,employee_location
+columns,employee_location,log_date,document,device
+insert,"20d041b4-9adf-44fc-8ed7-c159ab78a31d","2020-04-27 16:50:51.000","{\"longitude\":-80.0111458,\"latitude\":40.8244775,\"altitude\":359.96630859375,\"accuracy\":3.216,\"bearing\":187.02379,\"speed\":19.377094,\"time\":1588020652000}","4A549477EDFF"
+insert,"c0d66e78-8a52-441c-9ba2-a7fea6c3dd2c","2020-04-27 16:50:57.000","{\"longitude\":-80.0113032,\"latitude\":40.8234157,\"altitude\":357.1728515625,\"accuracy\":3.352,\"bearing\":185.01962,\"speed\":20.57414,\"time\":1588020658000}","4A549477EDFF"
+insert,"cb77d379-d394-4a0a-a258-562b8cb168ff","2020-04-27 16:51:03.000","{\"longitude\":-80.0113379,\"latitude\":40.8224508,\"altitude\":358.8726806640625,\"accuracy\":3.216,\"bearing\":177.0328,\"speed\":21.965487,\"time\":1588020663000}","4A549477EDFF"
+insert,"f58e7cc6-f227-44cc-96fb-e2603a8b8796","2020-04-27 16:51:08.000","{\"longitude\":-80.011178,\"latitude\":40.8212765,\"altitude\":356.00787353515625,\"accuracy\":3.352,\"bearing\":169.0107,\"speed\":21.599186,\"time\":1588020669000}","4A549477EDFF"
+commit,191
