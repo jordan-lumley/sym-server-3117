@@ -1,0 +1,28 @@
+nodeid,000
+binary,BASE64
+channel,reload
+batch,1465404
+catalog,
+schema,
+table,employee_location
+keys,employee_location
+columns,employee_location,log_date,document,device
+create,"<?xml version=\"1.0\"?>
+<!DOCTYPE database SYSTEM \"http://db.apache.org/torque/dtd/database\">
+<database name=\"dataextractor\">
+	<table name=\"employee_location\">
+		<column name=\"employee_location\" primaryKey=\"true\" required=\"true\" type=\"LONGVARCHAR\" size=\"2147483647\" default=\"uuid_generate_v4()\">
+			<platform-column name=\"postgres95\" type=\"uuid\" size=\"2147483647\" default=\"uuid_generate_v4()\"/>
+		</column>
+		<column name=\"log_date\" type=\"TIMESTAMP\" size=\"29,6\">
+			<platform-column name=\"postgres95\" type=\"timestamp\" size=\"29\" decimalDigits=\"6\"/>
+		</column>
+		<column name=\"document\" type=\"LONGVARCHAR\" size=\"2147483647\">
+			<platform-column name=\"postgres95\" type=\"jsonb\" size=\"2147483647\"/>
+		</column>
+		<column name=\"device\" type=\"LONGVARCHAR\" size=\"2147483647\">
+			<platform-column name=\"postgres95\" type=\"text\" size=\"2147483647\"/>
+		</column>
+	</table>
+</database>"
+commit,1465404

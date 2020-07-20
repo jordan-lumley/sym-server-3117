@@ -1,0 +1,11 @@
+nodeid,96ce801a83df234b
+binary,HEX
+channel,config
+batch,2
+catalog,
+schema,
+table,sym_node
+keys,node_id
+columns,node_id,node_group_id,external_id,sync_enabled,sync_url,schema_version,symmetric_version,config_version,database_type,database_version,batch_to_send_count,batch_in_error_count,created_at_node_id,deployment_type,deployment_sub_type
+update,"96ce801a83df234b","android-client","96ce801a83df234b","1","http://localhost:31415/sync/SymmetricDS","?","development",,"sqlite","3.0","-1","-1","000","android",,"96ce801a83df234b"
+commit,2

@@ -1,0 +1,13 @@
+nodeid,000
+binary,BASE64
+channel,config
+batch,1465352
+catalog,
+schema,
+table,sym_table_reload_request
+keys,target_node_id,source_node_id,trigger_id,router_id,create_time
+columns,target_node_id,source_node_id,trigger_id,router_id,create_time,create_table,delete_first,reload_select,before_custom_sql,reload_time,load_id,processed,channel_id,last_update_by,last_update_time
+insert,"96ce801a83df234b","000","ALL","ALL","2020-07-20 16:06:17.000000","1","0",,,,,"0",,,"2020-07-20 16:06:17.651000"
+update,"96ce801a83df234b","000","ALL","ALL","2020-07-20 16:06:17.000000","1","0",,,,"445","0",,,"2020-07-20 16:06:17.699000","96ce801a83df234b","000","ALL","ALL","2020-07-20 16:06:17.000000"
+update,"96ce801a83df234b","000","ALL","ALL","2020-07-20 16:06:17.000000","1","0",,,,"445","1",,,"2020-07-20 16:06:17.733000","96ce801a83df234b","000","ALL","ALL","2020-07-20 16:06:17.000000"
+commit,1465352

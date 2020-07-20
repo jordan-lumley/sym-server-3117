@@ -1,0 +1,17 @@
+nodeid,96ce801a83df234b
+binary,HEX
+channel,config
+batch,17
+catalog,
+schema,
+table,sym_node_security
+keys,node_id
+columns,node_id,node_password,registration_enabled,registration_time,initial_load_enabled,initial_load_time,initial_load_id,initial_load_create_by,rev_initial_load_enabled,rev_initial_load_time,rev_initial_load_id,rev_initial_load_create_by,created_at_node_id
+update,"96ce801a83df234b","qWOMqSThsGhZA1amjmRVmsq271GLvc","0","2020-07-20 15:24:19.000","1",,"-1","registration","0",,"0",,"000","96ce801a83df234b"
+catalog,
+schema,
+table,sym_node
+keys,node_id
+columns,node_id,node_group_id,external_id,sync_enabled,sync_url,schema_version,symmetric_version,config_version,database_type,database_version,batch_to_send_count,batch_in_error_count,created_at_node_id,deployment_type,deployment_sub_type
+update,"96ce801a83df234b","android-client","96ce801a83df234b","1","http://localhost:31415/sync/SymmetricDS","?","development",,"sqlite","3.0","-1","-1","000","android",,"96ce801a83df234b"
+commit,17

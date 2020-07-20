@@ -1,0 +1,31 @@
+nodeid,000
+binary,BASE64
+channel,android_log
+batch,1465414
+catalog,
+schema,
+table,android_log
+keys,log_date
+columns,log_date,log,device,level,message
+create,"<?xml version=\"1.0\"?>
+<!DOCTYPE database SYSTEM \"http://db.apache.org/torque/dtd/database\">
+<database name=\"dataextractor\">
+	<table name=\"android_log\">
+		<column name=\"log_date\" type=\"TIMESTAMP\" size=\"29,6\">
+			<platform-column name=\"postgres95\" type=\"timestamp\" size=\"29\" decimalDigits=\"6\"/>
+		</column>
+		<column name=\"log\" required=\"true\" type=\"LONGVARCHAR\" size=\"2147483647\" default=\"uuid_generate_v4()\">
+			<platform-column name=\"postgres95\" type=\"uuid\" size=\"2147483647\" default=\"uuid_generate_v4()\"/>
+		</column>
+		<column name=\"device\" type=\"LONGVARCHAR\" size=\"2147483647\">
+			<platform-column name=\"postgres95\" type=\"text\" size=\"2147483647\"/>
+		</column>
+		<column name=\"level\" type=\"LONGVARCHAR\" size=\"2147483647\">
+			<platform-column name=\"postgres95\" type=\"text\" size=\"2147483647\"/>
+		</column>
+		<column name=\"message\" type=\"LONGVARCHAR\" size=\"2147483647\">
+			<platform-column name=\"postgres95\" type=\"text\" size=\"2147483647\"/>
+		</column>
+	</table>
+</database>"
+commit,1465414

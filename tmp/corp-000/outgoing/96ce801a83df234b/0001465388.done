@@ -1,0 +1,19 @@
+nodeid,000
+binary,BASE64
+channel,config
+batch,1465388
+catalog,
+schema,
+table,sym_node
+keys,node_id
+columns,node_id,node_group_id,external_id,sync_enabled,sync_url,schema_version,symmetric_version,config_version,database_type,database_version,batch_to_send_count,batch_in_error_count,created_at_node_id,deployment_type,deployment_sub_type
+update,"96ce801a83df234b","android-client","96ce801a83df234b","1","http://localhost:31415/sync/SymmetricDS","?","development",,"sqlite","3.0","0","0","000","android",,"96ce801a83df234b"
+catalog,
+schema,
+table,sym_table_reload_request
+keys,target_node_id,source_node_id,trigger_id,router_id,create_time
+columns,target_node_id,source_node_id,trigger_id,router_id,create_time,create_table,delete_first,reload_select,before_custom_sql,reload_time,load_id,processed,channel_id,last_update_by,last_update_time
+insert,"96ce801a83df234b","000","ALL","ALL","2020-07-20 16:08:47.000000","1","0",,,,,"0",,,"2020-07-20 16:08:47.914000"
+update,"96ce801a83df234b","000","ALL","ALL","2020-07-20 16:08:47.000000","1","0",,,,"448","0",,,"2020-07-20 16:08:47.941000","96ce801a83df234b","000","ALL","ALL","2020-07-20 16:08:47.000000"
+update,"96ce801a83df234b","000","ALL","ALL","2020-07-20 16:08:47.000000","1","0",,,,"448","1",,,"2020-07-20 16:08:48.004000","96ce801a83df234b","000","ALL","ALL","2020-07-20 16:08:47.000000"
+commit,1465388
